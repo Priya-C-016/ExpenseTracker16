@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #3b3a3a;
+  color: #333;
+}
+
+.App {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #070707;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+.set-button{
+   border:3px solid white;
+  color:rgb(255, 254, 254);
+}
+.budget-info{
+  display:flex;
+  gap:100px;
+  justify-content: center;
+}
+.Total{
+ padding:10px 10px;
+  border:3px solid white;
+  border-radius:4px;
+  height:25px;
+  color:white;
+  font-size:18px;
+  width:auto;
+
+}
+.Left{
+  padding:10px 10px;
+  border:3px solid white;
+  border-radius:4px;
+  height:25px;
+  color:white;
+  font-size:18px;
+  width:auto;
+}
+h1 {
+  text-align: center;
+  color: #fcfcfc;
+}
+
+input {
+  width: calc(50% - 10px);
+  margin: 10px 5px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+  background-color: #030303;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  font-size: 16px;
+  border: 3px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size:20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #8f9091;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+li button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #FF5722;
+}
+
+li button:hover {
+  background-color: #E64A19;
+}
